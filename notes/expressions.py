@@ -27,14 +27,22 @@ print("The average age is:", average)
 # 1. Variables(get needed info )
 # 2. Do the equations- do the things
 # 3. Display results
-num1 = 12
-num2 = 7
+num1 = int(input("tell me a number:\n"))
+num2 = float(input("Tell me anothother number:\n"))
+num1 += num2
+print("addition(+): ", num1)
+num1 -= num2
+print("subtraton(-):",num1)
+num1 *= num2
+print("multiplication(*): " ,num1)
+num1 /= num2
+print("Division(/): ", round(num1, 2)) # round(number to round, number of decimal places)
+num1 **= num2
+print("exponents(**): " ,num1)
+num1 //= num2
+print("Integer Division(//): " ,num1)
+num1 %= num2
+print("Modulo (%); " ,num1)
 
-print("addition(+): ", num1+num2)
-print("subtraton(-):",num1-num2)
-print("multiplication(*): " ,num1*num2)
-print("Division(/): " ,num1/num2)
-print("exponents(**): " ,num1**num2)
-print("Integer Division(//): " ,num1//num2)
 # Integer is whole number
-#Moduel is whats left
+# Moduel is whats left
