@@ -11,3 +11,5 @@ sentence = '                 the quick brown fox jumps over the lazy dog        
 print(sentence.strip())
 
 print("welcome to the program", full_name + "!")
+
+# Sanitization and stupid proofing!
