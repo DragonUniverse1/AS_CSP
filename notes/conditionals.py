@@ -7,16 +7,20 @@
 #else:
     #print("go do your homework!")
 
-grade = 89
+grade = 110
 
-if grade >= 89:
-    print(f"You have grade {grade}% that is an A!")
-elif grade >= 79:
+if grade >= 90:
+    if grade > 100:
+        print(f"Yu cheese it, that isnt possible!")
+    else:
+       print(f"You have grade {grade}% that is an A!")
+elif grade >= 80:
     print(f"you have a {grade}% that is a B!")
 elif grade >= 70:
     print(f"you have a {grade}% that is a C!")
 else:
     print(f"You have a {grade}% that is not an A :<")
+
 # if is telling the computer if it is true or false
 # boolean statement or condition is a true or false (line 5)
 # one = is a comand
@@ -26,6 +30,19 @@ else:
 # > is less than
 # <= is less than or equal to
 # >= is greater than or equal to
+# ! means not
 
 
 # need to write elif when have more than 2 needed outcomes
+
+name = input("What is your name: ")
+
+if name == "Mrs. LaRose": 
+    print("You are the teacher!")
+elif name == "Tia" or name == "Ashley":
+    print("You are the TA")
+else:
+    print(f"Hello {name}, you are a student!")
+    if grade >= 70:
+        print("you are passing the class!")
+# logical opperators and, or not
