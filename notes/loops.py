@@ -4,3 +4,7 @@ foods = ["chocolate", "pasta", "Brownies", "cookies", "garlic bread", "Chocolate
 
 # For loop used for lists
 # loops repeat the code inside for a specific number of time
+
+for food in foods:
+    #print(f"{food} is my favorite food!")
+    print("Hi!")
