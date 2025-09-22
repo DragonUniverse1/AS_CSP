@@ -1,8 +1,5 @@
 # AS 7th time of day
 
-print("Good morning and afternoon")
-
-
 
 import datetime
 
@@ -14,3 +11,5 @@ print(f"here is the hour: {hour}")
 
 if hour >= 3:
     print(f"Good morning user")
+elif hour >= 12:
+    print("Good afternoon")
