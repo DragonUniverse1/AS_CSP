@@ -2,20 +2,27 @@
 #include <stdio.h>
 
 int main(void){
-    int grade = 95; //4 bytes
-    float pi = 3.14; //4 bytes
-    double long_pi = 3.1414926358; //8 bytes
-    char letter_grade = 'A'; // 1 byte
+    int grade; //4 bytes -> placeholder d
+    const float pi = 3.14; //4 bytes -> placeholder f
+    double long_pi = 3.1414926358; //8 bytes -> placeholder if
+    char letter_grade; // 1 byte -> placeholder c
     char name[] = "Alexa";
-    printf("%s I did it!", name); // f stands for format
-    printf("You have a %d, in the class. That is an %c", grade, letter_grade);
+    //User input
+    printf("What is your grade percentage as a whole number: ");
+    scanf("%d", &grade);
+
+    printf("What is your grade number: ");
+    scanf(" %c", &letter_grade);
+
+    printf("%s did it!\n", name); // f stands for format
+    printf("You have a %d, in the class. That is an %c\n", grade, letter_grade);
     
     return 0;
 }
 
 // %s takes a string variable
-// %c is single character
-// %d is double
+// %c takes a single character (char)
+// %d takes a double
 // grade = 95
 // grade = "A"
 // Characters (The "A" above) takes up to 1 bytes
@@ -24,4 +31,12 @@ int main(void){
 // C wants to not overuse space
 // int grade = 95;
 // an int is going to take only up to 4 bytes
-// the ; is like a period but for this code language
+// the ; is like a period for this code language
+// placeholder for list of characters for a string is s
+// scanf is a user input
+// & is saying "I want to put this information in this spot"
+// in C, everything must be in a funcion, everything needs an int main for it to work
+// constant does not exist in python
+// a constand in this code is set to put this variable to be unchanged
+// \n is for a new line character
+// int main is the main funtion, it must include it for it to work and funtion
