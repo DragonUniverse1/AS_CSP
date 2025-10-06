@@ -6,13 +6,17 @@ int main(void){
     const float pi = 3.14; //4 bytes -> placeholder f
     double long_pi = 3.1414926358; //8 bytes -> placeholder if
     char letter_grade; // 1 byte -> placeholder c
-    char name[] = "Alexa";
+    char name[50];
     //User input
+    printf("what is your name:\n");
+    fgets(name, sizeof(name), stdin);
+
     printf("What is your grade percentage as a whole number: ");
     scanf("%d", &grade);
 
     printf("What is your grade number: ");
     scanf(" %c", &letter_grade);
+    while (getchar() != '\n');
 
     printf("%s did it!\n", name); // f stands for format
     printf("You have a %d, in the class. That is an %c\n", grade, letter_grade);
