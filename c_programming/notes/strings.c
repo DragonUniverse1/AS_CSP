@@ -33,4 +33,7 @@ int main(void){
 
 // c is character
 // sizeof is part of string
+// strcat() is joining two strings together with +
+// strcat() replaces the variable of the first one in front with the strcat() stuff
+// string allows one letter, characters, multiple
 // 
