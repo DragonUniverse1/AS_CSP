@@ -9,7 +9,7 @@ int main(void){
         printf("%d\n", nums[x]);
     }
 
-        for(int i = 0; i < 5; i++){
+        for(int i = 0; i < 5; i++){ // this is a for loop
         printf("%s, is my favorite candy!\n", candies[i]);
         }
         for(int num = 1; num < 11; num++){
@@ -17,7 +17,7 @@ int main(void){
         }
 
         int num = 0;
-        while(num < 11){
+        while(num < 11){ //this is a while loop
             printf("%d\n", num);
             num++;
         }
@@ -25,16 +25,16 @@ int main(void){
     return 0;
 }
 //What is a loop? 
-//
+// a section of code that repeats
 //What are the two types of loops?
-//
+// for loops and while loops
 //What is iteration
-// one instants of the loop
+// repeating something until it is told to stop; repeats with minor changes each time
 //What are arrays? 
-// just lists in python
+// a list or group of items saud in one place
 //How do you make lists in C? 
 // int nums[] = {1,654,4,56,8,742,5};
 //How do you make for loops in C? 
 //
 //How do you make while loops in C?
-//
+// 
