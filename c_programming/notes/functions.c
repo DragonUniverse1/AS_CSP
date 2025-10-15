@@ -33,19 +33,20 @@ int main(void){// void is data type we are returning
 }
 
 /* What a function is
-
+    sections of codes that were written to be used several times in a code
 Why we use functions
-
+    to simplify our codes so we don't have to write the same thing over and over again
 How to write a function in C
 
 What are arguments and parameters?
-    paranmeter is when we define
+    parameter is a peice of info that is required for a funtion to run like a variable
+    arguments is a partner/value of the parameter to run a function
 How do arguments and parameters work together?
 
 How to use parameters and arguments in C
 
 What are return statements?
-
+    outputs inside of a function to locate where the function was called
 How do return statements change how you define a function in C?
 
 What do return statements do with the information?
